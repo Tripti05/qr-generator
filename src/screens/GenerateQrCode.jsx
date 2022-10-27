@@ -91,23 +91,3 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 });
-
-// <NavigationContainer>
-//   <Stack.Navigator
-//     initialRouteName={GenerateQrCode}
-//     screenOptions={{
-//       headerStyle: {
-//         backgroundColor: '#757575',
-//         shadowOpacity: 0,
-//         elevation: 0,
-//       },
-//       headerTintColor: 'white',
-//     }}>
-//     <Stack.Screen
-//       name="qrCodeGenerator"
-//       component={GenerateQrCode}
-//       options={{title: 'QR Code'}}
-//     />
-//     <Stack.Screen name="qrCodeGenerator" component={ScanQrCode} />
-//   </Stack.Navigator>
-// </NavigationContainer>
